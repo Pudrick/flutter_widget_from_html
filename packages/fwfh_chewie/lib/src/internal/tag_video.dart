@@ -42,9 +42,9 @@ class TagVideo {
         },
         onVisitChild: (tree, subTree) {
           final e = subTree.element;
-          if (e.localName != kTagVideoSource) {
-            return;
-          }
+          // if (e.localName != kTagVideoSource) {
+          //   return;
+          // }
           if (e.parent != tree.element) {
             return;
           }
